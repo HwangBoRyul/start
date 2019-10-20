@@ -1,0 +1,180 @@
+
+*{
+
+    margin : 0;
+    padding: 0;
+}
+
+html, body{
+    height : 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.head{
+   background-color: rgb(242, 242, 242);
+   width: 100%;
+   height: 30px; 
+   padding: 20px;
+   position: fixed;
+   overflow-y: auto;
+   z-index: 10;
+}
+
+.head_inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.head_logobox{
+    margin-right: auto;
+}
+
+.head_logo{
+    width: 125px;
+}
+
+.head_cancel{
+    margin-right: 40px;
+}
+
+.body1{
+    position: relative;
+    height: 800px;
+}
+
+.body1_backgroundimage{
+    position: relative;
+}
+
+.body1_background{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+}
+
+.body1_backgroundblack{
+    width: 100%;
+    height: 800px;
+    opacity: 0.4;
+    position: absolute;
+}
+
+.body1_box1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.body1_JB_image{
+    position: relative;
+    width : 120px;
+    margin-top: 280px;
+
+}
+
+.body1_box1_WBB{
+    position: relative;
+    color: white;
+    font-family: Georgia, serif !important;
+    font-size: 4.5rem;
+    margin-top: 35px;
+}
+
+.body1_line{
+    position: relative;
+    border-bottom: 2px solid white;
+}
+
+.body1_box1_BCF{
+    position: relative;
+    color : white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    margin-top: 35px;
+    letter-spacing: 1px;
+}
+
+.body2{
+    position : relative;
+    margin-top: 40px;
+    margin-bottom: 1000px;
+}
+
+.body2_box1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.body2_box1_lineup{
+    font-family: Georgia, serif !important;
+    font-size: 3rem;
+    
+}
+
+.body2_line{
+    width: 300px;
+    border-bottom: 3px solid #f15048;
+}
+
+.body2_box1_linedown1{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+    margin-top: 25px;
+}
+
+.body2_box1_linedown2{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+}
+
+.body2_box2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.body2_box2_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body2_box2_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body2_box2_3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#body2_box2_BD1{
+    font-family: Georgia, serif;
+    font-size : 1.5rem;
+}
+
+#body2_box2_BD2{
+    font-size: 0.875rem;
+    color: #999999;
+}
+
+.computer{
+    width: 64px;
+    height: 64px;
+}
+
+.tool {
+    width: 64px;
+    height: 64px;
+}
+
+.people{
+    width: 64px;
+    height: 64px;
+}
