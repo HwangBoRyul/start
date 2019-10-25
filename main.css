@@ -540,3 +540,116 @@ a:hover { color: white; text-decoration: none;}
     width : 600px;
     height : 400px;
 }
+
+/* -------------------------------------- */
+
+.body7{
+    height: 600px;
+    background-color: rgb(227,227,227);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body7_box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body7_box1_title{
+    font-family: Georgia, serif !important;
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.body7_box1_post{
+    margin-bottom: 3px;
+    color : #111111;
+}
+
+.body7_box2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.body7_box2_1{
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.body7_box2_1title{
+    font-family: Georgia, serif !important;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.body7_box2_1imagebox{
+    margin-top : 30px;
+}
+
+.facebook, .twitter, .instagram, .pinterest, .behance{
+    width : 20px;
+    height: 20px;
+}
+
+.twitter, .instagram, .pinterest, .behance{
+    margin-left: 8px;
+}
+
+.behance{
+    width : 30px;
+}
+
+.body7_box2_2{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    width: 550px;
+    height: 45px;
+    border : none;
+}
+
+.email{
+    width : 550px;
+    height : 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border : none;
+}
+
+.message{
+    width : 550px;
+    height : 120px;
+    border : none;
+}
+input::placeholder{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.03rem;
+    color : rgb(117, 117, 117);
+    padding-left: 10px;
+    opacity: 0.6;
+}
+
+.body7_buttonbox{
+    margin-top: 20px;
+}
+
+.body7_button{
+    background-color: rgb(241, 80,72);
+    color: white;
+    width: 120px;
+    height: 35px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.body7_button:hover{
+    background-color : rgb(239, 52,43);
+}
+
