@@ -1,3 +1,8 @@
+.body{
+    display: flex;
+    flex-direction: row;
+}
+
 .Yejun {
     width: 700px;
     height: 700px;
@@ -7,11 +12,6 @@
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-}
-
-.body{
-    display: flex;
-    flex-direction: row;
 }
 
 .text{
