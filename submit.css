@@ -1,0 +1,23 @@
+.Yejun {
+    width: 700px;
+    height: 700px;
+
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    font-family: "나눔고딕 Extrabold";
+    font-size: 80px;
+}
