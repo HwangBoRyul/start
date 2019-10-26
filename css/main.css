@@ -35,6 +35,8 @@ html, body{
     width: 125px;
 }
 
+/* --------------------------------- */
+
 .body1{
     position: relative;
     height: 800px;
@@ -364,9 +366,9 @@ html, body{
     background-color : rgb(239, 52,43);
 }
 
-a:link { color: white; text-decoration: none;}
-a:visited { color: white; text-decoration: none;}
-a:hover { color: white; text-decoration: none;}
+.body3_button_link:link { color: white; text-decoration: none;}
+.body3_button_link:visited { color: white; text-decoration: none;}
+.body3_button_link:hover { color: white; text-decoration: none;}
 
 /* ------------------------------------------------ */
 
@@ -703,4 +705,29 @@ textarea::placeholder{
 
 .body8_button:hover{
     background-color : rgb(204, 204, 204);
+}
+
+/* ------------------------------------------ */
+
+.body9{
+    height: 100px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body9_text{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.8rem;
+}
+
+.body9_a{
+    color : rgb(211, 158, 154);
+}
+
+.body9_a:hover{
+    color : white;
+    text-decoration : none;
 }
