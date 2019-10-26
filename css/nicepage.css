@@ -46,14 +46,30 @@ html, body{
 .head_inner_3{
     display: flex;
     flex-direction: row;
-
+    margin-left: auto;
 }
 
-.head_inner_3post{
+.head_inner_3post1{
     font-family: "Roboto", Arial, sans-serif;
     font-size: 0.9rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 30px;
+}
+
+.head_inner_3post2{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.body1{
+    height: 1000px;
+    margin-bottom: 1000px;
 }
